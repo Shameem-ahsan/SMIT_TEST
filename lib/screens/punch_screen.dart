@@ -41,7 +41,7 @@ class punch_screenPage extends State<punch_screen> {
             children: [
               Expanded(child:
               Center(
-                child: Text("Punch in",style: TextStyle(color: Colors.grey,fontSize:14,fontWeight: FontWeight.bold ,),),
+                child: Text("Punch In \n  ---",textAlign: TextAlign.center, style: TextStyle(color: Colors.grey,fontSize:14,fontWeight: FontWeight.bold ,),),
               )),
               Expanded(child: AspectRatio(
                 aspectRatio: 1,
@@ -82,7 +82,7 @@ class punch_screenPage extends State<punch_screen> {
               ),flex: 2,),
               Expanded(child:
               Center(
-                child: Text("Punch out",style: TextStyle(color: Colors.grey,fontSize:14,fontWeight: FontWeight.bold ,),),
+                child: Text("Punch Out\n  ---",textAlign: TextAlign.center,style: TextStyle(color: Colors.grey,fontSize:14,fontWeight: FontWeight.bold ,),),
               )),            ],
           ),
         ),
